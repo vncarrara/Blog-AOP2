@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contatos</title>
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="index.html">Blog do Futebol Capixaba</a>
+        <nav class="site-nav">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="classicos.html" class="nav-link">Clássicos Capixabas</a>
+          <a href="orgulho.html" class="nav-link">Orgulho Capixaba</a>
+          <a href="estadios.html" class="nav-link">Estádios e Torcidas</a>
+          <a href="contatos.html" class="nav-link">Contatos</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <article>
+        <h1>Contatos</h1>
+        <p>Envie suas dúvidas, sugestões ou histórias sobre o futebol capixaba!</p>
+
+        <form class="contact-form" onsubmit="alert('Mensagem enviada! (exemplo)'); return false;">
+          <label>Nome
+            <input type="text" name="nome" required />
+          </label>
+          <label>E-mail
+            <input type="email" name="email" required />
+          </label>
+          <label>Mensagem
+            <textarea name="mensagem" rows="5" required></textarea>
+          </label>
+          <button type="submit">Enviar</button>
+        </form>
+      </article>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>&copy; 2025 Blog do Futebol Capixaba — Todos os direitos reservados.</p>
+      </div>
+    </footer>
+  </body>
+</html>
